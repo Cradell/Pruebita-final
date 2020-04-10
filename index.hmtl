@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Treek-In</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link rel="stylesheet " href="assets/css/style.css">
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header">
+    <div class="logo">
+      <img class="header_image" src="assets/imgs/Logo.svg" alt="assets/imgs/Logo.svg">
+  </div>
+
+    <div class="navigation">
+      <ul class="navigation_list">
+        <li class="navigation_item"></li>
+        <li class="navigation_item"></li>
+        <li class="navigation_item"></li>
+        <li class="navigation_item"></li>
+        <li class="navigation_item"></li>
+      </ul>
+    </div>
+  </header>
+  <!--main-section-->
+  <section class="main-section">
+    <h1 class="main-section_heading">Haz Trekking sin Parar</h1>
+    <h2 class="main-section_text">Con Trekk-in te desprocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</h2>
+  </section>
+  <!--carac-section-->
+  <section class="carac-section">
+    <h1 class="carac-section_title">Características</h1>
+    <img class="carac-section_image" src="assets/imgs/bar-graph.svg" alt="assets/imgs/bar-graph.svg">
+    <h2 class="carac-section_title2">Estadísticas de tu progreso</h2>
+    <h3 class="carac-section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</h3>
+  </section>
+  <!--precio-section-->
+  <section class="precio-section">
+    <h1 class="precio-section_title">Precios</h1>
+    <form class="" </form> <form class="" </form> </section> <!--Footer-->
+      <footer class="footer">
+        <div class="c">
+
+        </div>
+      </footer>
+</body>
+
+</html>
