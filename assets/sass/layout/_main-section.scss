@@ -1,0 +1,28 @@
+.main-section{
+  margin: 0;
+  background-color: $White;
+
+}
+
+.main-section_heading {
+  color:$RaisingBlack;
+  typography:$Raleway;
+  font-weight: $Bold;
+  font-size: $xxxxx-large;
+  width: 500px;
+  margin-left: 100px;
+  position: relative;
+  top: 200px;
+}
+.main-section_text{
+  color: $RaisingBlack;
+  typography: $Opensans;
+  font-weight: $Regular;
+  font-size: $large;
+  text-align: left;
+  width: 450px;
+margin-left: 100px;
+line-height: 30px;
+position: relative;
+top: 200px;
+}

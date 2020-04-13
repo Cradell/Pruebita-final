@@ -1,2 +1,11 @@
-//bootstrap
+@import 'abstracts/variables.scss';
+@import 'base/reset.scss';
+@import 'base/typography.scss';
+@import 'components/buttons.scss';
+@import 'components/cards.scss';
+@import 'layout/header.scss';
+@import 'layout/main-section.scss';
+@import 'layout/carac-section.scss';
+@import 'layout/precio-section.scss';
+@import 'layout/footer.scss';
 @import 'vendors/bootstrap-4.4.1/bootstrap.scss';

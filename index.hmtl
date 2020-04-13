@@ -6,7 +6,7 @@
   <title>Treek-In</title>
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <link rel="stylesheet " href="assets/css/style.css">
 </head>
@@ -14,42 +14,71 @@
 <body>
   <!--Header-->
   <header class="header">
-    <div class="logo">
-      <img class="header_image" src="assets/imgs/Logo.svg" alt="assets/imgs/Logo.svg">
-  </div>
+    <object class="head-logo" type="image/svg+xml" data="assets/imgs/Logo.svg">
+    </object>
+    <ul class="navigation_list">
 
-    <div class="navigation">
-      <ul class="navigation_list">
-        <li class="navigation_item"></li>
-        <li class="navigation_item"></li>
-        <li class="navigation_item"></li>
-        <li class="navigation_item"></li>
-        <li class="navigation_item"></li>
-      </ul>
-    </div>
+      <li class="navigation_item"> Acerca de</li>
+      <li class="navigation_item">Características</li>
+      <li class="navigation_item"> Precios</li>
+      <li class="navigation_item">Iniciar sesión</li>
+      <li class="navigation_button">Regístrate</li>
+    </ul>
+
   </header>
   <!--main-section-->
   <section class="main-section">
-    <h1 class="main-section_heading">Haz Trekking sin Parar</h1>
+
+    <h1 class="main-section_heading">Haz Trekking sin <span>Parar</span></h1>
     <h2 class="main-section_text">Con Trekk-in te desprocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</h2>
+    <object type="image/svg+xml" data="assets/imgs/bg-hero.svg">
+      <img class="hero-image" src="assets/imgs/bg-hero.png" alt="">
+    </object>
   </section>
   <!--carac-section-->
   <section class="carac-section">
     <h1 class="carac-section_title">Características</h1>
-    <img class="carac-section_image" src="assets/imgs/bar-graph.svg" alt="assets/imgs/bar-graph.svg">
+    <object class="carac-section_image" type="image/svg+xml" data="assets/imgs/bar-graph.svg">
+      <img class="carac-section_image" src="assets/imgs/bar-graph.svg" alt="assets/imgs/bar-graph.svg">
+    </object>
     <h2 class="carac-section_title2">Estadísticas de tu progreso</h2>
-    <h3 class="carac-section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.</h3>
+    <h3 class="carac-section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
   </section>
   <!--precio-section-->
   <section class="precio-section">
     <h1 class="precio-section_title">Precios</h1>
-    <form class="" </form> <form class="" </form> </section> <!--Footer-->
-      <footer class="footer">
-        <div class="c">
+    <object type="image/svg+xml" data="assets/imgs/bg-price.svg">
+      <img src="assets/imgs/bg-price.png" alt="">
+    </object>
+    <div class="precio-section_card">
+      <div class="card-body">
+        <h2 class="card-title">Trekk-in Free</h2>
+        <h1 class="card-subtitle">$ 0 / mes</h1>
+        <li class="card_list-item">Ver mapas creado por usuarios</li>
+        <li class="card_list-item">Concretar con otros usuarios</li>
+      </div>
+    </div>
+    <div class="precio-section_card">
+      <div class="card-body">
+        <h2 class="card-title">Trekk-in Free</h2>
+        <h1 class="card-subtitle">$ 3500 / mes</h1>
+        <li class="card_list-item">ver mapas creados por usuarios</li>
+        <li class="card_list-item">Concretar con otros usuarios</li>
+        <li class="card_list-item">Definir mejores rutas</li>
+        <li class="card_list-item">Mapas offline</li>
+        <li class="card_list-item">Integración con otras aplicaciones</li>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
 
-        </div>
-      </footer>
+      <ul class="footer_navigation-list">
+        <li class="footer_navigation-item">Legal</li>
+        <li class="footer_navigation-item">Cookies</li>
+        <li class="footer_navigation-item">Sobre Anuncios</li>
+        <li class="footer_navigation-item">©2018 Trekk-in SPA</li>
+      </ul>
+    </footer>
 </body>
 
 </html>

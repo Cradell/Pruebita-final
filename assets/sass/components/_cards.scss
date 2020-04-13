@@ -1,0 +1,24 @@
+.card-body{
+  width: 30rem;
+  background-color: $White;
+
+}
+.precio-section_card{
+  display:inline-block;
+}
+.card-title{
+font-family: $Raleway;
+font-size: $xxxx-large;
+font-weight: $Regular;
+}
+.card-subtitle{
+  font-family: $Raleway;
+  font-size: $xxxxx-large;
+  font-weight: $Bold;
+}
+.card_list-item{
+  font-family: $Opensans;
+  font-size: $small;
+  font-weight: $Regular;
+  line-height: 2rem;
+}

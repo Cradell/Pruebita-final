@@ -1,0 +1,43 @@
+
+.carac-section{
+  margin:0;
+  background-color: $White;
+}
+.carac-section_title{
+  color: $RaisingBlack;
+  typography: $Raleway;
+  font-weight: $Bold;
+  font-size: $xxx-large;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+.carac-section_title2{
+  color: $RaisingBlack;
+  typography: $Raleway;
+  font-weight: $Bold;
+  font-size: $x-large;
+  text-align: left;
+  width: 500px;
+  position: relative;
+  left: 700px;
+  bottom: 150px;
+
+}
+.carac-section_text{
+  color: $RaisingBlack;
+  typography: $Opensans;
+  font-weight: $Regular;
+  font-size: $medium;
+  text-align: left;
+  width: 300px;
+  position: relative;
+  left: 700px;
+  bottom: 150px;
+  line-height: 2rem;
+}
+.carac-section_image{
+  position: relative;
+  left: 300px;
+  top: 50px;
+}
